@@ -1,0 +1,20 @@
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.card {
+    &.position-relative.z-0 {
+        background-color: hsl(263, 55%, 52%);
+    }
+}
+img {
+ height: 2rem;
+ width: 2rem;
+
+ &.position-absolute {
+    right: 15%;
+    top: 0;
+    height: 35%;
+    width: auto;
+ } 
+}
